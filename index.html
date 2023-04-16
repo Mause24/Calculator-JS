@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculadora con historial</title>
+    <link rel="stylesheet" href="icons/css/fontello.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div class="background">
+      <div class="calculator">
+        <div id="backdrop"></div>
+        <div id="historyContainer">
+          <div class="header">
+            <svg
+              id="close"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 320 512"
+            >
+              <path
+                d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"
+              />
+            </svg>
+          </div>
+          <ul id="list" class="list"></ul>
+          <div id="clean" class="footer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+              <path
+                d="M365.3 93.38l-74.63-74.64C278.6 6.742 262.3 0 245.4 0H64C28.65 0 0 28.65 0 64l.0065 384c0 35.34 28.65 64 64 64H320c35.2 0 64-28.8 64-64V138.6C384 121.7 377.3 105.4 365.3 93.38zM336 448c0 8.836-7.164 16-16 16H64.02c-8.838 0-16-7.164-16-16L48 64.13c0-8.836 7.164-16 16-16h160L224 128c0 17.67 14.33 32 32 32h79.1V448zM229.1 233.3L192 280.9L154.9 233.3C146.8 222.8 131.8 220.9 121.3 229.1C110.8 237.2 108.9 252.3 117.1 262.8L161.6 320l-44.53 57.25c-8.156 10.47-6.25 25.56 4.188 33.69C125.7 414.3 130.8 416 135.1 416c7.156 0 14.25-3.188 18.97-9.25L192 359.1l37.06 47.65C233.8 412.8 240.9 416 248 416c5.125 0 10.31-1.656 14.72-5.062c10.44-8.125 12.34-23.22 4.188-33.69L222.4 320l44.53-57.25c8.156-10.47 6.25-25.56-4.188-33.69C252.2 220.9 237.2 222.8 229.1 233.3z"
+              />
+            </svg>
+            <p>Limpiar historial</p>
+          </div>
+        </div>
+        <div id="history" class="calculator__header">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path
+              d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"
+            />
+          </svg>
+        </div>
+        <div class="display">
+          <input type="text" class="display__top" readonly />
+          <input type="text" class="display__bottom" readonly />
+        </div>
+        <div class="keyboard">
+          <button class="keyboard__btn black-button" id="delete-one">
+            &larr;
+          </button>
+          <button class="keyboard__btn" id="ce">ce</button>
+          <button class="keyboard__btn" id="c">c</button>
+          <button class="keyboard__btn" id="div">/</button>
+          <button class="keyboard__btn" id="7">7</button>
+          <button class="keyboard__btn" id="8">8</button>
+          <button class="keyboard__btn" id="9">9</button>
+          <button class="keyboard__btn" id="mul">*</button>
+          <button class="keyboard__btn" id="4">4</button>
+          <button class="keyboard__btn" id="5">5</button>
+          <button class="keyboard__btn" id="6">6</button>
+          <button class="keyboard__btn" id="sub">-</button>
+          <button class="keyboard__btn" id="1">1</button>
+          <button class="keyboard__btn" id="2">2</button>
+          <button class="keyboard__btn" id="3">3</button>
+          <button class="keyboard__btn" id="sum">+</button>
+          <button class="keyboard__btn" id="0">0</button>
+          <button class="keyboard__btn" id="point">.</button>
+          <button class="keyboard__btn" id="equal">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

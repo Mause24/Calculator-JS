@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2018 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="cancel" unicode="&#xe800;" d="M724 112q0-22-15-38l-76-76q-16-15-38-15t-38 15l-164 165-164-165q-16-15-38-15t-38 15l-76 76q-16 16-16 38t16 38l164 164-164 164q-16 16-16 38t16 38l76 76q16 16 38 16t38-16l164-164 164 164q16 16 38 16t38-16l76-76q15-15 15-38t-15-38l-164-164 164-164q15-15 15-38z" horiz-adv-x="785.7" />
+
+<glyph glyph-name="calc" unicode="&#xf1ec;" d="M214-7q0 29-21 50t-50 21-51-21-21-50 21-51 51-21 50 21 21 51z m215 0q0 29-21 50t-51 21-50-21-21-50 21-51 50-21 51 21 21 51z m-215 214q0 30-21 51t-50 21-51-21-21-51 21-50 51-21 50 21 21 50z m429-214q0 29-21 50t-51 21-50-21-21-50 21-51 50-21 51 21 21 51z m-214 214q0 30-21 51t-51 21-50-21-21-51 21-50 50-21 51 21 21 50z m-215 214q0 30-21 51t-50 21-51-21-21-51 21-50 51-21 50 21 21 50z m429-214q0 30-21 51t-51 21-50-21-21-51 21-50 50-21 51 21 21 50z m-214 214q0 30-21 51t-51 21-50-21-21-51 21-50 50-21 51 21 21 50z m428-428v214q0 29-21 50t-50 22-50-22-22-50v-214q0-29 22-50t50-22 50 22 21 50z m-214 428q0 30-21 51t-51 21-50-21-21-51 21-50 50-21 51 21 21 50z m214 179v143q0 14-10 25t-26 11h-714q-14 0-25-11t-11-25v-143q0-14 11-25t25-11h714q15 0 26 11t10 25z m0-179q0 30-21 51t-50 21-51-21-21-51 21-50 51-21 50 21 21 50z m72 358v-858q0-29-22-50t-50-21h-786q-29 0-50 21t-21 50v858q0 29 21 50t50 21h786q29 0 50-21t22-50z" horiz-adv-x="1000" />
+
+<glyph glyph-name="window-maximize" unicode="&#xf2d0;" d="M143 64h714v429h-714v-429z m857 625v-678q0-37-26-63t-63-27h-822q-36 0-63 27t-26 63v678q0 37 26 63t63 27h822q37 0 63-27t26-63z" horiz-adv-x="1000" />
+
+<glyph glyph-name="window-minimize" unicode="&#xf2d1;" d="M1000 118v-107q0-37-26-63t-63-27h-822q-36 0-63 27t-26 63v107q0 37 26 63t63 26h822q37 0 63-26t26-63z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
